@@ -156,7 +156,7 @@ Hooks.on('preCreateChatMessage', (message, messageData, options, userID) => {
         // Action type text lives in chat card footer
         const footer = html.querySelector('footer.card-footer');
         if (!footer) return;
-        
+
         // Use RegExp to search the footer text for 'Action', 'Bonus Action', or 'Reaction' to discern the action type
         const actionRE = new RegExp(`${localize('DND5E.Action')}|${localize('DND5E.BonusAction')}|${localize('DND5E.Reaction')}`);
         const searchRes = actionRE.exec(footer.textContent);
