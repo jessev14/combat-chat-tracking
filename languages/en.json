@@ -1,0 +1,25 @@
+{
+    "combat-chat-tracking": {
+        "settings": {
+            "roundEnabled": {
+                "name": "Round Alert"
+            },
+            "autoTrackingEnabled": {
+                "name": "Automatic Tracking"
+            },
+            "notificationsEnabled": {
+                "name": "Notify Used Actions",
+                "hint": "Requires Automatic Tracking enabled. GM users will receive a notification when a character uses an action type they have already used this round."
+            },
+            "whisperTrackersEnabled": {
+                "name": "Whisper Trackers to GM Users",
+                "hint": "All trackers will be whispered to GM users. Hidden combatant trackers are always whispered."
+            },
+            "GMmodeEnabled": {
+                "name": "GM Mode",
+                "hint": "Only GM users can manually update trackers. If disabled, players can update trackers for their owned characters."
+            }
+        },
+        "notification": "{combatantName} has already used their {actionType} this round."
+    }
+}

@@ -1,0 +1,31 @@
+h2.combat-chat-tracking-combatant-name {
+    font-size: 15px;
+}
+
+img.combat-chat-tracking-combatant-img {
+    flex: 0;
+    height: 50px;
+    border: none;
+    padding-right: 35px;
+}
+
+input.combat-chat-tracking-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+label.combat-chat-tracking-checkboxes {
+    align-items: center;
+}
+
+label.combat-chat-tracking-checkboxes a {
+    flex: 0;
+    font-size: 30px;
+}
+    
+label.combat-chat-tracking-checkboxes input:checked ~ a {
+    opacity: 0.5;
+}

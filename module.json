@@ -1,0 +1,57 @@
+{
+    "id": "combat-chat-tracking",
+    "title": "Combat Chat Tracking D&D5e",
+    "description": "",
+    "authors": [
+        {
+            "name": "enso",
+            "discord": "enso#0361"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "compatibility": {
+                    "minimum": "2.0.0",
+                    "verified": "2.0.2"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "socketlib",
+                "compatibility": {
+                    "verified": "1.0.10"
+                }
+            }
+        ]
+    },
+    "esmodules": [
+        "./scripts/main.js"
+    ],
+    "styles": [
+        "./styles/style.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "./languages/en.json"
+        }
+    ],
+    "flags": {
+        "fvttdevleague": {
+            "pacakge-jam": 2022
+        }
+    },
+    "socket": true,
+    "url": "",
+    "manifest": "",
+    "download": ""
+}
