@@ -13,7 +13,7 @@ This module adds combat round alerts and turn trackers.
 
 Turn trackers track the combatant's action, bonus action, and reaction for that round.
 
-![Combat Chat Tracking D&D5e](/combat-chat-tracking.png)
+![Combat Chat Tracking D&D5e](img/combat-chat-tracking.png)
 
 ## Settings
 
